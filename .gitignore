@@ -1,0 +1,75 @@
+# ==============================
+# 项目特定忽略规则
+# ==============================
+
+# Trae IDE 本地配置目录
+.trae/
+
+# 大型原始抓包数据（不适合版本控制，如需共享请使用网盘/Git LFS）
+ppdu_pcaps/
+
+# 脚本生成的波形/中间数据产物（由 extract_ppdu_phy.py / pcap2waveform.py 生成）
+ppdu_waveforms/
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ==============================
+# MATLAB
+# ==============================
+*.asv
+*.m~
+*.mlapp~
+slprj/
+sfprj/
+*.autosave
+
+# ==============================
+# 编辑器 / IDE
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ==============================
+# 操作系统
+# ==============================
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+*.lnk
+.DS_Store
